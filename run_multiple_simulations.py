@@ -25,6 +25,8 @@ def run_multiple_simulations(num_simulations=10):
     # Store all results
     all_results = []
     player_selections = Counter()
+    player_draft_positions = {}  # Track draft positions for each player
+    team_rosters = {}  # Track final rosters for each team
     
     for i in range(num_simulations):
         print(f"Simulation {i+1}/{num_simulations}")
@@ -45,10 +47,24 @@ def run_multiple_simulations(num_simulations=10):
         simulation_filename = f"outputs/simulation_{i+1:03d}_{timestamp}.csv"
         simulator.export_results(results, simulation_filename)
         
-        # Count player selections (excluding keepers)
+        # Count player selections and track draft positions (excluding keepers)
         for result in results:
             if result['Type'] == 'Draft':
-                player_selections[result['Player']] += 1
+                player = result['Player']
+                pick_number = result['Overall']
+                player_selections[player] += 1
+                
+                # Track draft positions
+                if player not in player_draft_positions:
+                    player_draft_positions[player] = []
+                player_draft_positions[player].append(pick_number)
+        
+        # Get final team rosters
+        final_rosters = simulator.get_final_rosters()
+        for team, roster in final_rosters.items():
+            if team not in team_rosters:
+                team_rosters[team] = []
+            team_rosters[team].append(roster)
         
         all_results.append(results)
     
@@ -109,12 +125,14 @@ def run_multiple_simulations(num_simulations=10):
     
     # Write analysis to markdown file
     analysis_filename = f"outputs/simulation_analysis_{timestamp}.md"
-    write_analysis_to_markdown(analysis_filename, num_simulations, player_selections, position_counts, timestamp)
+    write_analysis_to_markdown(analysis_filename, num_simulations, player_selections, position_counts, 
+                              player_draft_positions, team_rosters, timestamp)
     
     print(f"\nAnalysis written to: {analysis_filename}")
     print(f"Individual simulation CSVs saved to: outputs/")
 
-def write_analysis_to_markdown(filename, num_simulations, player_selections, position_counts, timestamp):
+def write_analysis_to_markdown(filename, num_simulations, player_selections, position_counts, 
+                              player_draft_positions, team_rosters, timestamp):
     """Write the simulation analysis to a markdown file."""
     
     with open(filename, 'w') as f:
@@ -154,6 +172,53 @@ def write_analysis_to_markdown(filename, num_simulations, player_selections, pos
                 for player, count, percentage in position_counts[position][:5]:
                     f.write(f"| {player} | {count} | {percentage:.1f}% |\n")
                 f.write("\n")
+        
+        f.write("## Average Draft Position\n\n")
+        f.write("Players with their average draft position across all simulations:\n\n")
+        f.write("| Player | Avg Pick | Min Pick | Max Pick | Times Drafted |\n")
+        f.write("|--------|----------|----------|----------|---------------|\n")
+        
+        # Calculate average positions for players drafted multiple times
+        avg_positions = []
+        for player, positions in player_draft_positions.items():
+            if len(positions) >= 3:  # Only show players drafted at least 3 times
+                avg_pick = sum(positions) / len(positions)
+                min_pick = min(positions)
+                max_pick = max(positions)
+                avg_positions.append((player, avg_pick, min_pick, max_pick, len(positions)))
+        
+        # Sort by average pick (earliest first)
+        avg_positions.sort(key=lambda x: x[1])
+        
+        for player, avg_pick, min_pick, max_pick, count in avg_positions[:30]:  # Top 30
+            f.write(f"| {player} | {avg_pick:.1f} | {min_pick} | {max_pick} | {count} |\n")
+        
+        f.write("\n## Team Rosters Summary\n\n")
+        f.write("### Most Common Players by Team\n\n")
+        
+        # Analyze team rosters
+        team_player_frequency = {}
+        for team, roster_list in team_rosters.items():
+            team_player_frequency[team] = Counter()
+            for roster in roster_list:
+                for position, players in roster.items():
+                    if isinstance(players, list):
+                        for player in players:
+                            team_player_frequency[team][player] += 1
+                    elif players:  # Single player
+                        team_player_frequency[team][players] += 1
+        
+        for team in sorted(team_player_frequency.keys()):
+            f.write(f"#### {team}\n\n")
+            f.write("| Player | Times on Team | Percentage |\n")
+            f.write("|--------|---------------|------------|\n")
+            
+            # Get most common players for this team
+            common_players = team_player_frequency[team].most_common(10)
+            for player, count in common_players:
+                percentage = (count / num_simulations) * 100
+                f.write(f"| {player} | {count} | {percentage:.1f}% |\n")
+            f.write("\n")
         
         f.write("## Simulation Files\n\n")
         f.write("Individual simulation results are saved as CSV files:\n\n")

@@ -318,6 +318,10 @@ class FantasyDraftSimulator:
         
         return draft_results
     
+    def get_final_rosters(self) -> Dict[str, Dict[str, List[str]]]:
+        """Get the final rosters for all teams."""
+        return self.team_rosters.copy()
+    
     def print_team_rosters(self):
         """Print the final rosters for all teams."""
         print("\n" + "="*80)

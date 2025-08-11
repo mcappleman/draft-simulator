@@ -84,6 +84,8 @@ The multiple simulation script will:
    - Position breakdowns
    - Players selected in every simulation
    - Players selected in 80%+ of simulations
+   - **Average draft position analysis** (showing where players are typically drafted)
+   - **Team roster summaries** (showing most common players for each team)
 4. Print summary statistics to console
 
 ## Customization

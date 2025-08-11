@@ -48,7 +48,9 @@ class FantasyDraftSimulator:
     def _identify_keepers(self):
         """Identify and assign keepers to teams."""
         for _, row in self.draft_order.iterrows():
-            if pd.notna(row['Player']) and row['Player'] != '':
+            # Check if this is a keeper by looking at the Notes field
+            notes = row.get('Notes', '')
+            if pd.notna(notes) and 'keeper' in str(notes).lower():
                 team = row['Team']
                 player = row['Player']
                 position = row['Position']
@@ -270,8 +272,7 @@ class FantasyDraftSimulator:
             overall_pick = pick['Overall']
             round_num = pick['Round']
             pick_in_round = pick['Pick']
-            
-            # Check if this is a keeper pick
+            # Check if this is a keeper pick first
             if pick_id in self.keepers:
                 keeper_info = self.keepers[pick_id]
                 draft_results.append({
@@ -370,6 +371,8 @@ def main():
     for result in results:
         if result['Type'] == 'Keeper':
             print(f"Pick {result['Overall']:2d} ({result['Round']}.{result['Pick']:02d}): {result['Team']:8} - {result['Player']:25} ({result['Position']}) - KEEPER")
+        elif result['Type'] == 'Pre-assigned':
+            print(f"Pick {result['Overall']:2d} ({result['Round']}.{result['Pick']:02d}): {result['Team']:8} - {result['Player']:25} ({result['Position']}) - PRE-ASSIGNED")
         else:
             print(f"Pick {result['Overall']:2d} ({result['Round']}.{result['Pick']:02d}): {result['Team']:8} - {result['Player']:25} ({result['Position']})")
     

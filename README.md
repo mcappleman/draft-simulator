@@ -5,6 +5,7 @@ A Python-based fantasy football draft simulator that handles keepers, position r
 ## Features
 
 - **Keeper Support**: Automatically identifies and assigns keepers from the draft file
+- **Pre-assigned Player Support**: Respects players already assigned in the draft CSV file
 - **Position Requirements**: Ensures teams fill their starting roster (1 QB, 2 RB, 2 WR, 1 TE, 1 FLEX, 1 K, 1 DST)
 - **Progressive Randomness**: Early picks are more predictable, later picks have more randomness
 - **Flexible Drafting**: Teams can draft bench players early while ensuring complete starting lineups by draft end

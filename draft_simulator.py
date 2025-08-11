@@ -108,18 +108,45 @@ class FantasyDraftSimulator:
         
         return needs
     
-    def _get_priority_positions(self, team: str) -> List[str]:
-        """Get positions that need to be filled, prioritized by importance."""
+    def _get_priority_positions(self, team: str, current_pick_number: int = None) -> List[str]:
+        """Get positions that need to be filled, allowing bench spots to be filled early."""
         needs = self._get_team_needs(team)
         priority = []
         
-        # First priority: Fill starting positions
+        # Count remaining picks for this team from current position forward
+        if current_pick_number is not None:
+            total_picks_remaining = len([row for _, row in self.draft_order.iterrows() 
+                                       if row['Team'] == team and row['ID'] not in self.keepers 
+                                       and row['Overall'] > current_pick_number])
+        else:
+            total_picks_remaining = len([row for _, row in self.draft_order.iterrows() 
+                                       if row['Team'] == team and row['ID'] not in self.keepers])
+        
+        # Count missing starting positions (excluding FLEX for now)
+        missing_starters = []
         for pos in POSITION_PRIORITIES:
             if needs.get(pos, 0) > 0:
-                priority.append(pos)
+                missing_starters.append(pos)
         
-        # Second priority: Fill FLEX positions
-        if needs.get('FLEX', 0) > 0:
+        # If team has exactly the same number of missing starters as picks remaining,
+        # they MUST fill those positions
+        if len(missing_starters) == total_picks_remaining and missing_starters:
+            priority.extend(missing_starters)
+        # If team has more missing starters than picks remaining, they're in trouble
+        # but we'll still prioritize the most critical positions
+        elif len(missing_starters) > total_picks_remaining:
+            # Prioritize the most critical positions first
+            critical_positions = ['QB', 'K', 'DST']  # These are single-slot positions
+            for pos in critical_positions:
+                if pos in missing_starters:
+                    priority.append(pos)
+            # Then add other missing positions
+            for pos in missing_starters:
+                if pos not in priority:
+                    priority.append(pos)
+        
+        # Add FLEX positions if needed and we have room
+        if needs.get('FLEX', 0) > 0 and len(priority) < total_picks_remaining:
             # Determine which position to prioritize for FLEX
             if needs.get('RB_FLEX', 0) > 0:
                 priority.append('RB')
@@ -175,23 +202,23 @@ class FantasyDraftSimulator:
     
     def _make_pick(self, team: str, pick_number: int) -> Optional[Tuple[str, str]]:
         """Make a pick for a team based on their needs."""
-        priority_positions = self._get_priority_positions(team)
+        priority_positions = self._get_priority_positions(team, pick_number)
         
-        if not priority_positions:
-            # Team has all starting positions filled, pick best available
-            best_available = self.available_players.nsmallest(10, 'Rank')['Name Formula'].tolist()
-            selected_player = self._select_player_with_randomness(best_available, pick_number)
-        else:
-            # Try to fill highest priority position
+        # If we have specific position priorities (like missing starters in final rounds), use them
+        if priority_positions:
             for position in priority_positions:
                 available_players = self._get_available_players_by_position(position, 20)
                 if available_players:
                     selected_player = self._select_player_with_randomness(available_players, pick_number)
                     break
             else:
-                # Fallback to best available
+                # Fallback to best available if no players found for priority positions
                 best_available = self.available_players.nsmallest(10, 'Rank')['Name Formula'].tolist()
                 selected_player = self._select_player_with_randomness(best_available, pick_number)
+        else:
+            # No specific priorities, pick best available player
+            best_available = self.available_players.nsmallest(10, 'Rank')['Name Formula'].tolist()
+            selected_player = self._select_player_with_randomness(best_available, pick_number)
         
         if selected_player:
             # Get player data before removing from available players

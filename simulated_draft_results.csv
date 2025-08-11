@@ -1,181 +1,181 @@
 ID,Overall,Round,Pick,Team,Player,Position,Notes,Type
-Basil1,1,1,1,Basil,Joe Burrow,QB,Simulated Pick,Draft
-Chaz1,2,1,2,Chaz,Josh Allen,QB,Simulated Pick,Draft
-Hunter1,3,1,3,Hunter,Patrick Mahomes II,QB,Simulated Pick,Draft
-Ross1,4,1,4,Ross,Bo Nix,QB,Simulated Pick,Draft
-Willis1,5,1,5,Willis,Brock Purdy,QB,Simulated Pick,Draft
-Willis2,6,1,6,Willis,Josh Jacobs,RB,Simulated Pick,Draft
-Jared1,7,1,7,Jared,Justin Herbert,QB,Simulated Pick,Draft
-Ean1,8,1,8,Ean,Kyler Murray,QB,Simulated Pick,Draft
-Majors1,9,1,9,Majors,Justin Fields,QB,Simulated Pick,Draft
-Matt1,10,1,10,Matt,Dak Prescott,QB,Simulated Pick,Draft
-Sawyer1,11,1,11,Sawyer,Ashton Jeanty,RB,Simulated Pick,Draft
-Sam1,12,1,12,Sam,Drake Maye,QB,Simulated Pick,Draft
-Sam2,13,2,1,Sam,Jonathan Taylor,RB,Simulated Pick,Draft
-Sawyer2,14,2,2,Sawyer,James Cook,RB,Simulated Pick,Draft
-Matt2,15,2,3,Matt,David Montgomery,RB,Simulated Pick,Draft
-Majors2,16,2,4,Majors,Omarion Hampton,RB,Simulated Pick,Draft
-Ean2,17,2,5,Ean,Kenneth Walker III,RB,Simulated Pick,Draft
-Jared2,18,2,6,Jared,TreVeyon Henderson,RB,Simulated Pick,Draft
-Willis3,19,2,7,Willis,Isiah Pacheco,RB,Simulated Pick,Draft
-Trevor1,20,2,8,Trevor,Caleb Williams,QB,Simulated Pick,Draft
-Ross2,21,2,9,Ross,Kaleb Johnson,RB,Simulated Pick,Draft
-Hunter2,22,2,10,Hunter,Tony Pollard,RB,Simulated Pick,Draft
-Chaz2,23,2,11,Chaz,James Conner,RB,Simulated Pick,Draft
-Basil2,24,2,12,Basil,Alvin Kamara,RB,Simulated Pick,Draft
-Basil3,25,3,1,Basil,Tyjae Spears,RB,Simulated Pick,Draft
-Chaz3,26,3,2,Chaz,Aaron Jones Sr.,RB,Simulated Pick,Draft
+Basil1,1,1,1,Basil,Amon-Ra St. Brown,WR,Simulated Pick,Draft
+Chaz1,2,1,2,Chaz,Ashton Jeanty,RB,Simulated Pick,Draft
+Hunter1,3,1,3,Hunter,Ja'Marr Chase,WR,Simulated Pick,Draft
+Ross1,4,1,4,Ross,Drake London,WR,Simulated Pick,Draft
+Willis1,5,1,5,Willis,Josh Jacobs,RB,Simulated Pick,Draft
+Willis2,6,1,6,Willis,Josh Allen,QB,Simulated Pick,Draft
+Jared1,7,1,7,Jared,Alvin Kamara,RB,Simulated Pick,Draft
+Ean1,8,1,8,Ean,Jonathan Taylor,RB,Simulated Pick,Draft
+Majors1,9,1,9,Majors,James Cook,RB,Simulated Pick,Draft
+Matt1,10,1,10,Matt,Kenneth Walker III,RB,Simulated Pick,Draft
+Sawyer1,11,1,11,Sawyer,A.J. Brown,WR,Simulated Pick,Draft
+Sam1,12,1,12,Sam,David Montgomery,RB,Simulated Pick,Draft
+Sam2,13,2,1,Sam,Omarion Hampton,RB,Simulated Pick,Draft
+Sawyer2,14,2,2,Sawyer,Tee Higgins,WR,Simulated Pick,Draft
+Matt2,15,2,3,Matt,RJ Harvey,RB,Simulated Pick,Draft
+Majors2,16,2,4,Majors,TreVeyon Henderson,RB,Simulated Pick,Draft
+Ean2,17,2,5,Ean,James Conner,RB,Simulated Pick,Draft
+Jared2,18,2,6,Jared,Joe Mixon,RB,Simulated Pick,Draft
+Willis3,19,2,7,Willis,Joe Burrow,QB,Simulated Pick,Draft
+Trevor1,20,2,8,Trevor,Jaxon Smith-Njigba,WR,Simulated Pick,Draft
+Ross2,21,2,9,Ross,Courtland Sutton,WR,Simulated Pick,Draft
+Hunter2,22,2,10,Hunter,DJ Moore,WR,Simulated Pick,Draft
+Chaz2,23,2,11,Chaz,Aaron Jones Sr.,RB,Simulated Pick,Draft
+Basil2,24,2,12,Basil,Davante Adams,WR,Simulated Pick,Draft
+Basil3,25,3,1,Basil,Jaylen Waddle,WR,Simulated Pick,Draft
+Chaz3,26,3,2,Chaz,Terry McLaurin,WR,Simulated Pick,Draft
 Hunter3,27,3,3,Hunter,Trey McBride,TE,Keeper,Keeper
-Ross3,28,3,4,Ross,D'Andre Swift,RB,Simulated Pick,Draft
-Basil4,29,3,5,Basil,Ja'Marr Chase,WR,Simulated Pick,Draft
-Willis4,30,3,6,Willis,DJ Moore,WR,Simulated Pick,Draft
-Jared3,31,3,7,Jared,Travis Etienne Jr.,RB,Simulated Pick,Draft
-Ean3,32,3,8,Ean,Quinshon Judkins,RB,Simulated Pick,Draft
-Majors3,33,3,9,Majors,Najee Harris,RB,Simulated Pick,Draft
-Matt3,34,3,10,Matt,Brian Robinson Jr.,RB,Simulated Pick,Draft
-Sawyer3,35,3,11,Sawyer,Xavier Worthy,WR,Simulated Pick,Draft
-Sam3,36,3,12,Sam,Joe Mixon,RB,Simulated Pick,Draft
-Sam4,37,4,1,Sam,A.J. Brown,WR,Simulated Pick,Draft
-Sawyer4,38,4,2,Sawyer,Courtland Sutton,WR,Simulated Pick,Draft
-Matt4,39,4,3,Matt,Jaxon Smith-Njigba,WR,Simulated Pick,Draft
-Majors4,40,4,4,Majors,Jameson Williams,WR,Simulated Pick,Draft
-Ean4,41,4,5,Ean,Davante Adams,WR,Simulated Pick,Draft
-Jared4,42,4,6,Jared,DK Metcalf,WR,Simulated Pick,Draft
-Willis5,43,4,7,Willis,Amon-Ra St. Brown,WR,Simulated Pick,Draft
-Trevor2,44,4,8,Trevor,RJ Harvey,RB,Simulated Pick,Draft
-Ross4,45,4,9,Ross,Drake London,WR,Simulated Pick,Draft
-Hunter4,46,4,10,Hunter,Javonte Williams,RB,Simulated Pick,Draft
-Chaz4,47,4,11,Chaz,Tee Higgins,WR,Simulated Pick,Draft
-Basil5,48,4,12,Basil,Mike Evans,WR,Simulated Pick,Draft
+Ross3,28,3,4,Ross,Mike Evans,WR,Simulated Pick,Draft
+Basil4,29,3,5,Basil,DK Metcalf,WR,Simulated Pick,Draft
+Willis4,30,3,6,Willis,Calvin Ridley,WR,Simulated Pick,Draft
+Jared3,31,3,7,Jared,Xavier Worthy,WR,Simulated Pick,Draft
+Ean3,32,3,8,Ean,Jerry Jeudy,WR,Simulated Pick,Draft
+Majors3,33,3,9,Majors,Chris Olave,WR,Simulated Pick,Draft
+Matt3,34,3,10,Matt,Jameson Williams,WR,Simulated Pick,Draft
+Sawyer3,35,3,11,Sawyer,Kaleb Johnson,RB,Simulated Pick,Draft
+Sam3,36,3,12,Sam,Zay Flowers,WR,Simulated Pick,Draft
+Sam4,37,4,1,Sam,George Pickens,WR,Simulated Pick,Draft
+Sawyer4,38,4,2,Sawyer,Isiah Pacheco,RB,Simulated Pick,Draft
+Matt4,39,4,3,Matt,Rome Odunze,WR,Simulated Pick,Draft
+Majors4,40,4,4,Majors,Deebo Samuel Sr.,WR,Simulated Pick,Draft
+Ean4,41,4,5,Ean,Jordan Addison,WR,Simulated Pick,Draft
+Jared4,42,4,6,Jared,Khalil Shakir,WR,Simulated Pick,Draft
+Willis5,43,4,7,Willis,DeVonta Smith,WR,Simulated Pick,Draft
+Trevor2,44,4,8,Trevor,D'Andre Swift,RB,Simulated Pick,Draft
+Ross4,45,4,9,Ross,Tetairoa McMillan,WR,Simulated Pick,Draft
+Hunter4,46,4,10,Hunter,Patrick Mahomes II,QB,Simulated Pick,Draft
+Chaz4,47,4,11,Chaz,Travis Hunter,WR,Simulated Pick,Draft
+Basil5,48,4,12,Basil,Tony Pollard,RB,Simulated Pick,Draft
 Basil6,49,5,1,Basil,T.J. Hockenson,TE,Simulated Pick,Draft
-Chaz5,50,5,2,Chaz,Tetairoa McMillan,WR,Simulated Pick,Draft
-Hunter5,51,5,3,Hunter,DeVonta Smith,WR,Simulated Pick,Draft
-Ross5,52,5,4,Ross,Zay Flowers,WR,Simulated Pick,Draft
-Basil7,53,5,5,Basil,Brandon Aubrey,K,Simulated Pick,Draft
-Trevor3,54,5,6,Trevor,Rhamondre Stevenson,RB,Simulated Pick,Draft
-Jared5,55,5,7,Jared,Ricky Pearsall,WR,Simulated Pick,Draft
-Ean5,56,5,8,Ean,Travis Hunter,WR,Simulated Pick,Draft
-Majors5,57,5,9,Majors,Chris Olave,WR,Simulated Pick,Draft
-Matt5,58,5,10,Matt,Terry McLaurin,WR,Simulated Pick,Draft
-Sawyer5,59,5,11,Sawyer,Tyler Warren,TE,Simulated Pick,Draft
-Sam5,60,5,12,Sam,Jaylen Waddle,WR,Simulated Pick,Draft
-Sam6,61,6,1,Sam,Travis Kelce,TE,Simulated Pick,Draft
-Willis6,62,6,2,Willis,Dalton Schultz,TE,Simulated Pick,Draft
-Matt6,63,6,3,Matt,Dalton Kincaid,TE,Simulated Pick,Draft
-Trevor4,64,6,4,Trevor,Rome Odunze,WR,Simulated Pick,Draft
-Ean6,65,6,5,Ean,Colston Loveland,TE,Simulated Pick,Draft
-Jared6,66,6,6,Jared,Brenton Strange,TE,Simulated Pick,Draft
-Trevor5,67,6,7,Trevor,Jayden Reed,WR,Simulated Pick,Draft
-Trevor6,68,6,8,Trevor,Mark Andrews,TE,Simulated Pick,Draft
-Ross6,69,6,9,Ross,David Njoku,TE,Simulated Pick,Draft
-Hunter6,70,6,10,Hunter,George Pickens,WR,Simulated Pick,Draft
-Chaz6,71,6,11,Chaz,Evan Engram,TE,Simulated Pick,Draft
-Basil8,72,6,12,Basil,Denver Broncos,DST,Simulated Pick,Draft
-Basil9,73,7,1,Basil,Tucker Kraft,TE,Simulated Pick,Draft
-Chaz7,74,7,2,Chaz,Joshua Karty,K,Simulated Pick,Draft
-Hunter7,75,7,3,Hunter,Dallas Goedert,TE,Simulated Pick,Draft
-Ross7,76,7,4,Ross,Ka'imi Fairbairn,K,Simulated Pick,Draft
-Majors6,77,7,5,Majors,Jonnu Smith,TE,Simulated Pick,Draft
-Willis7,78,7,6,Willis,Will Reichard,K,Simulated Pick,Draft
-Jared7,79,7,7,Jared,Wil Lutz,K,Simulated Pick,Draft
-Ean7,80,7,8,Ean,Jake Bates,K,Simulated Pick,Draft
-Majors7,81,7,9,Majors,Cameron Dicker,K,Simulated Pick,Draft
-Matt7,82,7,10,Matt,Evan McPherson,K,Simulated Pick,Draft
-Sawyer6,83,7,11,Sawyer,Chris Boswell,K,Simulated Pick,Draft
-Sam7,84,7,12,Sam,Jason Sanders,K,Simulated Pick,Draft
-Sam8,85,8,1,Sam,San Francisco 49ers,DST,Simulated Pick,Draft
-Sawyer7,86,8,2,Sawyer,Minnesota Vikings,DST,Simulated Pick,Draft
-Matt8,87,8,3,Matt,Philadelphia Eagles,DST,Simulated Pick,Draft
-Majors8,88,8,4,Majors,Washington Commanders,DST,Simulated Pick,Draft
-Ean8,89,8,5,Ean,Houston Texans,DST,Simulated Pick,Draft
-Jared8,90,8,6,Jared,Pittsburgh Steelers,DST,Simulated Pick,Draft
-Willis8,91,8,7,Willis,Baltimore Ravens,DST,Simulated Pick,Draft
-Majors9,92,8,8,Majors,Cam Skattebo,RB,Simulated Pick,Draft
-Ross8,93,8,9,Ross,Green Bay Packers,DST,Simulated Pick,Draft
-Hunter8,94,8,10,Hunter,Tyler Loop,K,Simulated Pick,Draft
-Chaz8,95,8,11,Chaz,Detroit Lions,DST,Simulated Pick,Draft
-Basil10,96,8,12,Basil,Calvin Ridley,WR,Simulated Pick,Draft
-Basil11,97,9,1,Basil,Jordan Addison,WR,Simulated Pick,Draft
-Chaz9,98,9,2,Chaz,MarShawn Lloyd,RB,Simulated Pick,Draft
-Hunter9,99,9,3,Hunter,Los Angeles Rams,DST,Simulated Pick,Draft
-Ross9,100,9,4,Ross,Zach Charbonnet,RB,Simulated Pick,Draft
-Willis9,101,9,5,Willis,Jared Goff,QB,Simulated Pick,Draft
-Willis10,102,9,6,Willis,Jerry Jeudy,WR,Simulated Pick,Draft
-Jared9,103,9,7,Jared,Trey Benson,RB,Simulated Pick,Draft
-Ean9,104,9,8,Ean,Jerome Ford,RB,Simulated Pick,Draft
+Chaz5,50,5,2,Chaz,Tucker Kraft,TE,Simulated Pick,Draft
+Hunter5,51,5,3,Hunter,Bo Nix,QB,Simulated Pick,Draft
+Ross5,52,5,4,Ross,Kyler Murray,QB,Simulated Pick,Draft
+Basil7,53,5,5,Basil,Brian Robinson Jr.,RB,Simulated Pick,Draft
+Trevor3,54,5,6,Trevor,Mark Andrews,TE,Simulated Pick,Draft
+Jared5,55,5,7,Jared,Mike Gesicki,TE,Simulated Pick,Draft
+Ean5,56,5,8,Ean,Tyler Warren,TE,Simulated Pick,Draft
+Majors5,57,5,9,Majors,Dalton Kincaid,TE,Simulated Pick,Draft
+Matt5,58,5,10,Matt,Travis Kelce,TE,Simulated Pick,Draft
+Sawyer5,59,5,11,Sawyer,Evan Engram,TE,Simulated Pick,Draft
+Sam5,60,5,12,Sam,David Njoku,TE,Simulated Pick,Draft
+Sam6,61,6,1,Sam,Javonte Williams,RB,Simulated Pick,Draft
+Willis6,62,6,2,Willis,Caleb Williams,QB,Simulated Pick,Draft
+Matt6,63,6,3,Matt,Zach Charbonnet,RB,Simulated Pick,Draft
+Trevor4,64,6,4,Trevor,Justin Fields,QB,Simulated Pick,Draft
+Ean6,65,6,5,Ean,Tank Bigsby,RB,Simulated Pick,Draft
+Jared6,66,6,6,Jared,Jerome Ford,RB,Simulated Pick,Draft
+Trevor5,67,6,7,Trevor,Travis Etienne Jr.,RB,Simulated Pick,Draft
+Trevor6,68,6,8,Trevor,Jakobi Meyers,WR,Simulated Pick,Draft
+Ross6,69,6,9,Ross,Jauan Jennings,WR,Simulated Pick,Draft
+Hunter6,70,6,10,Hunter,Stefon Diggs,WR,Simulated Pick,Draft
+Chaz6,71,6,11,Chaz,Rhamondre Stevenson,RB,Simulated Pick,Draft
+Basil8,72,6,12,Basil,Brock Purdy,QB,Simulated Pick,Draft
+Basil9,73,7,1,Basil,Cam Skattebo,RB,Simulated Pick,Draft
+Chaz7,74,7,2,Chaz,Najee Harris,RB,Simulated Pick,Draft
+Hunter7,75,7,3,Hunter,Dak Prescott,QB,Simulated Pick,Draft
+Ross7,76,7,4,Ross,Jared Goff,QB,Simulated Pick,Draft
+Majors6,77,7,5,Majors,Tyjae Spears,RB,Simulated Pick,Draft
+Willis7,78,7,6,Willis,Michael Pittman Jr.,WR,Simulated Pick,Draft
+Jared7,79,7,7,Jared,Justin Herbert,QB,Simulated Pick,Draft
+Ean7,80,7,8,Ean,Jayden Reed,WR,Simulated Pick,Draft
+Majors7,81,7,9,Majors,Ricky Pearsall,WR,Simulated Pick,Draft
+Matt7,82,7,10,Matt,Quinshon Judkins,RB,Simulated Pick,Draft
+Sawyer6,83,7,11,Sawyer,Josh Downs,WR,Simulated Pick,Draft
+Sam7,84,7,12,Sam,Cooper Kupp,WR,Simulated Pick,Draft
+Sam8,85,8,1,Sam,J.K. Dobbins,RB,Simulated Pick,Draft
+Sawyer7,86,8,2,Sawyer,Jordan Love,QB,Simulated Pick,Draft
+Matt8,87,8,3,Matt,Drake Maye,QB,Simulated Pick,Draft
+Majors8,88,8,4,Majors,Matthew Golden,WR,Simulated Pick,Draft
+Ean8,89,8,5,Ean,Jake Ferguson,TE,Simulated Pick,Draft
+Jared8,90,8,6,Jared,Trevor Lawrence,QB,Simulated Pick,Draft
+Willis8,91,8,7,Willis,Emeka Egbuka,WR,Simulated Pick,Draft
+Majors9,92,8,8,Majors,Darnell Mooney,WR,Simulated Pick,Draft
+Ross8,93,8,9,Ross,Dallas Goedert,TE,Simulated Pick,Draft
+Hunter8,94,8,10,Hunter,Rashid Shaheed,WR,Simulated Pick,Draft
+Chaz8,95,8,11,Chaz,C.J. Stroud,QB,Simulated Pick,Draft
+Basil10,96,8,12,Basil,Rachaad White,RB,Simulated Pick,Draft
+Basil11,97,9,1,Basil,J.J. McCarthy,QB,Simulated Pick,Draft
+Chaz9,98,9,2,Chaz,Isaac Guerendo,RB,Simulated Pick,Draft
+Hunter9,99,9,3,Hunter,Austin Ekeler,RB,Simulated Pick,Draft
+Ross9,100,9,4,Ross,Trey Benson,RB,Simulated Pick,Draft
+Willis9,101,9,5,Willis,Rashod Bateman,WR,Simulated Pick,Draft
+Willis10,102,9,6,Willis,Ray Davis,RB,Simulated Pick,Draft
+Jared9,103,9,7,Jared,Tua Tagovailoa,QB,Simulated Pick,Draft
+Ean9,104,9,8,Ean,Colston Loveland,TE,Simulated Pick,Draft
 Trevor7,105,9,9,Trevor,Chuba Hubbard,RB,Keeper,Keeper
-Matt9,106,9,10,Matt,Austin Ekeler,RB,Simulated Pick,Draft
+Matt9,106,9,10,Matt,Christian Kirk,WR,Simulated Pick,Draft
 Sawyer8,107,9,11,Sawyer,Baker Mayfield,QB,Keeper,Keeper
-Sam9,108,9,12,Sam,Tank Bigsby,RB,Simulated Pick,Draft
-Sam10,109,10,1,Sam,Stefon Diggs,WR,Simulated Pick,Draft
+Sam9,108,9,12,Sam,Brandon Aiyuk,WR,Simulated Pick,Draft
+Sam10,109,10,1,Sam,Tyler Allgeier,RB,Simulated Pick,Draft
 Sawyer9,110,10,2,Sawyer,Kyren Williams,RB,Keeper,Keeper
-Matt10,111,10,3,Matt,Jakobi Meyers,WR,Simulated Pick,Draft
-Majors10,112,10,4,Majors,Khalil Shakir,WR,Simulated Pick,Draft
-Ean10,113,10,5,Ean,Deebo Samuel Sr.,WR,Simulated Pick,Draft
-Jared10,114,10,6,Jared,Darnell Mooney,WR,Simulated Pick,Draft
+Matt10,111,10,3,Matt,Keon Coleman,WR,Simulated Pick,Draft
+Majors10,112,10,4,Majors,Jonnu Smith,TE,Simulated Pick,Draft
+Ean10,113,10,5,Ean,Kyle Pitts Sr.,TE,Simulated Pick,Draft
+Jared10,114,10,6,Jared,Braelon Allen,RB,Simulated Pick,Draft
 Willis11,115,10,7,Willis,Jaylen Warren,RB,Keeper,Keeper
-Trevor8,116,10,8,Trevor,Cam Little,K,Simulated Pick,Draft
-Ross10,117,10,9,Ross,Jauan Jennings,WR,Simulated Pick,Draft
-Hunter10,118,10,10,Hunter,Jordan Love,QB,Simulated Pick,Draft
-Chaz10,119,10,11,Chaz,Josh Downs,WR,Simulated Pick,Draft
+Trevor8,116,10,8,Trevor,Michael Penix Jr.,QB,Simulated Pick,Draft
+Ross10,117,10,9,Ross,Matthew Stafford,QB,Simulated Pick,Draft
+Hunter10,118,10,10,Hunter,Hunter Henry,TE,Simulated Pick,Draft
+Chaz10,119,10,11,Chaz,Luther Burden III,WR,Simulated Pick,Draft
 Basil12,120,10,12,Basil,Nico Collins,WR,Keeper,Keeper
-Trevor9,121,11,1,Trevor,Indianapolis Colts,DST,Simulated Pick,Draft
-Chaz11,122,11,2,Chaz,J.K. Dobbins,RB,Simulated Pick,Draft
-Hunter11,123,11,3,Hunter,Michael Pittman Jr.,WR,Simulated Pick,Draft
-Ross11,124,11,4,Ross,Emeka Egbuka,WR,Simulated Pick,Draft
-Trevor10,125,11,5,Trevor,Jake Ferguson,TE,Simulated Pick,Draft
-Willis12,126,11,6,Willis,Cooper Kupp,WR,Simulated Pick,Draft
-Jared11,127,11,7,Jared,J.J. McCarthy,QB,Simulated Pick,Draft
-Ean11,128,11,8,Ean,C.J. Stroud,QB,Simulated Pick,Draft
-Majors11,129,11,9,Majors,Keon Coleman,WR,Simulated Pick,Draft
-Matt11,130,11,10,Matt,Brandon Aiyuk,WR,Simulated Pick,Draft
-Sawyer10,131,11,11,Sawyer,Trevor Lawrence,QB,Simulated Pick,Draft
-Sam11,132,11,12,Sam,Rachaad White,RB,Simulated Pick,Draft
-Sam12,133,12,1,Sam,Matthew Golden,WR,Simulated Pick,Draft
-Sawyer11,134,12,2,Sawyer,Kyle Pitts Sr.,TE,Simulated Pick,Draft
-Matt12,135,12,3,Matt,Isaac Guerendo,RB,Simulated Pick,Draft
-Majors12,136,12,4,Majors,Matthew Stafford,QB,Simulated Pick,Draft
-Ean12,137,12,5,Ean,Rashid Shaheed,WR,Simulated Pick,Draft
-Jared12,138,12,6,Jared,Ray Davis,RB,Simulated Pick,Draft
-Willis13,139,12,7,Willis,Bryce Young,QB,Simulated Pick,Draft
-Trevor11,140,12,8,Trevor,Michael Penix Jr.,QB,Simulated Pick,Draft
-Ross12,141,12,9,Ross,Christian Kirk,WR,Simulated Pick,Draft
-Hunter12,142,12,10,Hunter,Rashod Bateman,WR,Simulated Pick,Draft
-Chaz12,143,12,11,Chaz,Tua Tagovailoa,QB,Simulated Pick,Draft
-Trevor12,144,12,12,Trevor,Jaydon Blue,RB,Simulated Pick,Draft
-Basil13,145,13,1,Basil,Rico Dowdle,RB,Simulated Pick,Draft
-Chaz13,146,13,2,Chaz,Tyler Allgeier,RB,Simulated Pick,Draft
-Hunter13,147,13,3,Hunter,Hunter Henry,TE,Simulated Pick,Draft
-Ross13,148,13,4,Ross,Braelon Allen,RB,Simulated Pick,Draft
-Trevor13,149,13,5,Trevor,Luther Burden III,WR,Simulated Pick,Draft
-Sawyer12,150,13,6,Sawyer,Nick Chubb,RB,Simulated Pick,Draft
-Jared13,151,13,7,Jared,Tre' Harris,WR,Simulated Pick,Draft
-Ean13,152,13,8,Ean,Cedric Tillman,WR,Simulated Pick,Draft
-Majors13,153,13,9,Majors,Zach Ertz,TE,Simulated Pick,Draft
-Matt13,154,13,10,Matt,Bhayshul Tuten,RB,Simulated Pick,Draft
-Sawyer13,155,13,11,Sawyer,Marvin Mims Jr.,WR,Simulated Pick,Draft
-Sam13,156,13,12,Sam,Marquise Brown,WR,Simulated Pick,Draft
-Sam14,157,14,1,Sam,Wan'Dale Robinson,WR,Simulated Pick,Draft
-Sawyer14,158,14,2,Sawyer,Jayden Higgins,WR,Simulated Pick,Draft
-Matt14,159,14,3,Matt,Jaylen Wright,RB,Simulated Pick,Draft
-Majors14,160,14,4,Majors,Kyle Williams,WR,Simulated Pick,Draft
-Ean14,161,14,5,Ean,Romeo Doubs,WR,Simulated Pick,Draft
-Jared14,162,14,6,Jared,Adam Thielen,WR,Simulated Pick,Draft
-Willis14,163,14,7,Willis,Jalen McMillan,WR,Simulated Pick,Draft
-Trevor14,164,14,8,Trevor,Dylan Sampson,RB,Simulated Pick,Draft
-Ross14,165,14,9,Ross,Geno Smith,QB,Simulated Pick,Draft
-Hunter14,166,14,10,Hunter,Quentin Johnston,WR,Simulated Pick,Draft
-Chaz14,167,14,11,Chaz,Roschon Johnson,RB,Simulated Pick,Draft
-Basil14,168,14,12,Basil,Blake Corum,RB,Simulated Pick,Draft
-Basil15,169,15,1,Basil,DeMario Douglas,WR,Simulated Pick,Draft
-Chaz15,170,15,2,Chaz,Mike Gesicki,TE,Simulated Pick,Draft
-Hunter15,171,15,3,Hunter,Pat Freiermuth,TE,Simulated Pick,Draft
+Trevor9,121,11,1,Trevor,Zach Ertz,TE,Simulated Pick,Draft
+Chaz11,122,11,2,Chaz,Marquise Brown,WR,Simulated Pick,Draft
+Hunter11,123,11,3,Hunter,Bryce Young,QB,Simulated Pick,Draft
+Ross11,124,11,4,Ross,Dylan Sampson,RB,Simulated Pick,Draft
+Trevor10,125,11,5,Trevor,Rico Dowdle,RB,Simulated Pick,Draft
+Willis12,126,11,6,Willis,Isaiah Likely,TE,Simulated Pick,Draft
+Jared11,127,11,7,Jared,Romeo Doubs,WR,Simulated Pick,Draft
+Ean11,128,11,8,Ean,Tre' Harris,WR,Simulated Pick,Draft
+Majors11,129,11,9,Majors,Jaylen Wright,RB,Simulated Pick,Draft
+Matt11,130,11,10,Matt,Marvin Mims Jr.,WR,Simulated Pick,Draft
+Sawyer10,131,11,11,Sawyer,Cedric Tillman,WR,Simulated Pick,Draft
+Sam11,132,11,12,Sam,Jaydon Blue,RB,Simulated Pick,Draft
+Sam12,133,12,1,Sam,Geno Smith,QB,Simulated Pick,Draft
+Sawyer11,134,12,2,Sawyer,Roschon Johnson,RB,Simulated Pick,Draft
+Matt12,135,12,3,Matt,Quentin Johnston,WR,Simulated Pick,Draft
+Majors12,136,12,4,Majors,Shedeur Sanders,QB,Simulated Pick,Draft
+Ean12,137,12,5,Ean,Cameron Ward,QB,Simulated Pick,Draft
+Jared12,138,12,6,Jared,Nick Chubb,RB,Simulated Pick,Draft
+Willis13,139,12,7,Willis,Younghoe Koo,K,Simulated Pick,Draft
+Trevor11,140,12,8,Trevor,Blake Corum,RB,Simulated Pick,Draft
+Ross12,141,12,9,Ross,Brandon Aubrey,K,Simulated Pick,Draft
+Hunter12,142,12,10,Hunter,Kareem Hunt,RB,Simulated Pick,Draft
+Chaz12,143,12,11,Chaz,Bhayshul Tuten,RB,Simulated Pick,Draft
+Trevor12,144,12,12,Trevor,Wan'Dale Robinson,WR,Simulated Pick,Draft
+Basil13,145,13,1,Basil,Tyler Bass,K,Simulated Pick,Draft
+Chaz13,146,13,2,Chaz,Jake Bates,K,Simulated Pick,Draft
+Hunter13,147,13,3,Hunter,Chris Boswell,K,Simulated Pick,Draft
+Ross13,148,13,4,Ross,Pittsburgh Steelers,DST,Simulated Pick,Draft
+Trevor13,149,13,5,Trevor,Cameron Dicker,K,Simulated Pick,Draft
+Sawyer12,150,13,6,Sawyer,MarShawn Lloyd,RB,Simulated Pick,Draft
+Jared13,151,13,7,Jared,Ka'imi Fairbairn,K,Simulated Pick,Draft
+Ean13,152,13,8,Ean,Wil Lutz,K,Simulated Pick,Draft
+Majors13,153,13,9,Majors,Jake Elliott,K,Simulated Pick,Draft
+Matt13,154,13,10,Matt,Jason Myers,K,Simulated Pick,Draft
+Sawyer13,155,13,11,Sawyer,Chase McLaughlin,K,Simulated Pick,Draft
+Sam13,156,13,12,Sam,Evan McPherson,K,Simulated Pick,Draft
+Sam14,157,14,1,Sam,Arizona Cardinals,DST,Simulated Pick,Draft
+Sawyer14,158,14,2,Sawyer,Kansas City Chiefs,DST,Simulated Pick,Draft
+Matt14,159,14,3,Matt,Minnesota Vikings,DST,Simulated Pick,Draft
+Majors14,160,14,4,Majors,Houston Texans,DST,Simulated Pick,Draft
+Ean14,161,14,5,Ean,Denver Broncos,DST,Simulated Pick,Draft
+Jared14,162,14,6,Jared,Philadelphia Eagles,DST,Simulated Pick,Draft
+Willis14,163,14,7,Willis,Buffalo Bills,DST,Simulated Pick,Draft
+Trevor14,164,14,8,Trevor,Los Angeles Rams,DST,Simulated Pick,Draft
+Ross14,165,14,9,Ross,Adam Thielen,WR,Simulated Pick,Draft
+Hunter14,166,14,10,Hunter,Baltimore Ravens,DST,Simulated Pick,Draft
+Chaz14,167,14,11,Chaz,Detroit Lions,DST,Simulated Pick,Draft
+Basil14,168,14,12,Basil,San Francisco 49ers,DST,Simulated Pick,Draft
+Basil15,169,15,1,Basil,Jayden Higgins,WR,Simulated Pick,Draft
+Chaz15,170,15,2,Chaz,DeAndre Hopkins,WR,Simulated Pick,Draft
+Hunter15,171,15,3,Hunter,Brenton Strange,TE,Simulated Pick,Draft
 Ross15,172,15,4,Ross,Jordan Mason,RB,Keeper,Keeper
-Trevor15,173,15,5,Trevor,Isaiah Likely,TE,Simulated Pick,Draft
-Willis15,174,15,6,Willis,Xavier Legette,WR,Simulated Pick,Draft
-Jared15,175,15,7,Jared,DeAndre Hopkins,WR,Simulated Pick,Draft
-Ean15,176,15,8,Ean,Sam Darnold,QB,Simulated Pick,Draft
-Majors15,177,15,9,Majors,Joshua Palmer,WR,Simulated Pick,Draft
-Matt15,178,15,10,Matt,Kareem Hunt,RB,Simulated Pick,Draft
-Sawyer15,179,15,11,Sawyer,Cade Otton,TE,Simulated Pick,Draft
-Sam15,180,15,12,Sam,Alec Pierce,WR,Simulated Pick,Draft
+Trevor15,173,15,5,Trevor,Kyle Williams,WR,Simulated Pick,Draft
+Willis15,174,15,6,Willis,Jalen McMillan,WR,Simulated Pick,Draft
+Jared15,175,15,7,Jared,Joshua Palmer,WR,Simulated Pick,Draft
+Ean15,176,15,8,Ean,DeMario Douglas,WR,Simulated Pick,Draft
+Majors15,177,15,9,Majors,Xavier Legette,WR,Simulated Pick,Draft
+Matt15,178,15,10,Matt,Jalen Coker,WR,Simulated Pick,Draft
+Sawyer15,179,15,11,Sawyer,Alec Pierce,WR,Simulated Pick,Draft
+Sam15,180,15,12,Sam,Pat Freiermuth,TE,Simulated Pick,Draft

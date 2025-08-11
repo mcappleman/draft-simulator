@@ -5,7 +5,7 @@
 A comprehensive fantasy football draft simulator that can:
 
 1. **Handle Keepers**: Automatically identifies and assigns keepers from the draft file
-2. **Smart Drafting**: Teams prioritize filling starting positions before bench spots
+2. **Flexible Drafting**: Teams can draft bench players early while ensuring complete starting lineups by draft end
 3. **Progressive Randomness**: Early picks are more predictable, later picks have more randomness
 4. **Position Requirements**: Ensures teams fill their complete starting roster
 5. **Export Results**: Saves draft results to CSV for analysis
@@ -16,6 +16,11 @@ A comprehensive fantasy football draft simulator that can:
 - `draft_simulator.py` - Main simulator class and logic
 - `config.py` - Configuration settings for easy customization
 - `run_multiple_simulations.py` - Script to run multiple simulations and analyze results
+
+### Output Files
+- `outputs/` - Directory containing simulation results and analysis
+  - `simulation_XXX_YYYYMMDD_HHMMSS.csv` - Individual simulation results
+  - `simulation_analysis_YYYYMMDD_HHMMSS.md` - Comprehensive analysis report
 
 ### Documentation
 - `README.md` - Complete usage instructions
@@ -35,7 +40,8 @@ A comprehensive fantasy football draft simulator that can:
 ### Smart Position Filling
 - **Starting Roster**: 1 QB, 2 RB, 2 WR, 1 TE, 1 FLEX, 1 K, 1 DST
 - **FLEX Position**: Can be filled by RB, WR, or TE
-- **Priority System**: Teams fill starting positions before bench spots
+- **Critical Position Detection**: Teams must fill missing starters when picks remaining equals missing positions
+- **Priority System**: Critical positions (QB, K, DST) prioritized when teams are in trouble
 
 ### Progressive Randomness
 - **Picks 1-10**: Top 5 players available (very predictable)
@@ -75,10 +81,17 @@ Edit `config.py` to adjust:
 
 ## Sample Output
 
+### Single Simulation
 The simulator produces:
 1. **Console Output**: Complete draft results with team rosters
 2. **CSV Export**: Structured data for further analysis
-3. **Statistics**: Player selection frequency across multiple simulations
+
+### Multiple Simulations
+The multiple simulation script produces:
+1. **Console Output**: Summary statistics and player selection frequency
+2. **Individual CSV Files**: Each simulation saved separately with timestamp
+3. **Markdown Analysis**: Comprehensive report with tables and breakdowns
+4. **Statistics**: Player selection frequency across all simulations
 
 ## Technical Details
 

@@ -7,7 +7,7 @@ A Python-based fantasy football draft simulator that handles keepers, position r
 - **Keeper Support**: Automatically identifies and assigns keepers from the draft file
 - **Position Requirements**: Ensures teams fill their starting roster (1 QB, 2 RB, 2 WR, 1 TE, 1 FLEX, 1 K, 1 DST)
 - **Progressive Randomness**: Early picks are more predictable, later picks have more randomness
-- **Smart Drafting**: Teams prioritize filling starting positions before bench spots
+- **Flexible Drafting**: Teams can draft bench players early while ensuring complete starting lineups by draft end
 - **Export Results**: Saves draft results to CSV for analysis
 
 ## Requirements
@@ -34,6 +34,18 @@ pip install -r requirements.txt
 python draft_simulator.py
 ```
 
+### Multiple Simulations
+```bash
+# Run 20 simulations and analyze results
+python run_multiple_simulations.py
+```
+
+This will:
+- Run multiple draft simulations
+- Save each simulation as a separate CSV file in the `outputs/` folder
+- Generate a comprehensive markdown analysis report
+- Show player selection frequency and position breakdowns
+
 ## Input File Formats
 
 ### Available Players CSV
@@ -57,16 +69,28 @@ Should contain columns:
 
 ## Output
 
+### Single Simulation
 The simulator will:
 1. Print the complete draft results to console
 2. Show final team rosters
 3. Export results to `simulated_draft_results.csv`
 
+### Multiple Simulations
+The multiple simulation script will:
+1. Run the specified number of simulations
+2. Save each simulation as a separate CSV file in the `outputs/` folder
+3. Generate a comprehensive markdown analysis report with:
+   - Player selection frequency tables
+   - Position breakdowns
+   - Players selected in every simulation
+   - Players selected in 80%+ of simulations
+4. Print summary statistics to console
+
 ## Customization
 
 You can modify the simulator by:
 - Changing the randomness factors in `_calculate_randomness_factor()`
-- Adjusting position priorities in `_get_priority_positions()`
+- Adjusting the position priority logic in `_get_priority_positions()`
 - Modifying roster requirements in the `starting_roster` dictionary
 
 ## Example Output

@@ -4,16 +4,18 @@ Configuration settings for the Fantasy Football Draft Simulator.
 
 # Randomness settings for different draft phases
 RANDOMNESS_FACTORS = {
-    'early_picks': 5,      # Picks 1-10: top 5 players
-    'mid_picks': 15,       # Picks 11-50: top 15 players  
-    'late_picks': 30,      # Picks 51-100: top 30 players
-    'very_late_picks': 50  # Picks 100+: top 50 players
+    'very_early_picks': 3,  # Picks 1-5: top 3 players
+    'early_picks': 5,       # Picks 6-15: top 5 players
+    'mid_picks': 15,        # Picks 16-60: top 15 players  
+    'late_picks': 30,       # Picks 61-100: top 30 players
+    'very_late_picks': 50   # Picks 100+: top 50 players
 }
 
 # Pick thresholds for randomness phases
 PICK_THRESHOLDS = {
-    'early': 10,
-    'mid': 50, 
+    'very_early': 5,
+    'early': 15,
+    'mid': 60, 
     'late': 100
 }
 

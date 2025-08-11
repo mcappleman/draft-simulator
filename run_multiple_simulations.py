@@ -214,7 +214,7 @@ def write_analysis_to_markdown(filename, num_simulations, player_selections, pos
             f.write("|--------|---------------|------------|\n")
             
             # Get most common players for this team
-            common_players = team_player_frequency[team].most_common(10)
+            common_players = team_player_frequency[team].most_common(20)
             for player, count in common_players:
                 percentage = (count / num_simulations) * 100
                 f.write(f"| {player} | {count} | {percentage:.1f}% |\n")

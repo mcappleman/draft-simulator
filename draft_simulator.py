@@ -55,33 +55,27 @@ class FantasyDraftSimulator:
                 player = row['Player']
                 position = row['Position']
                 
-                # Find the player in available players
-                player_data = self.available_players[
-                    self.available_players['Name Formula'] == player
-                ]
-                
-                if not player_data.empty:
-                    # Remove keeper from available players
-                    self.available_players = self.available_players[
-                        self.available_players['Name Formula'] != player
-                    ]
-                    
-                    # Add to team roster
-                    if position in ['RB', 'WR', 'TE']:
-                        # Check if we need to fill FLEX position
-                        if len(self.team_rosters[team]['FLEX']) < self.starting_roster['FLEX']:
-                            self.team_rosters[team]['FLEX'].append(player)
-                        else:
-                            self.team_rosters[team][position].append(player)
+                # Add to team roster (regardless of whether player is in available players)
+                if position in ['RB', 'WR', 'TE']:
+                    # Check if we need to fill FLEX position
+                    if len(self.team_rosters[team]['FLEX']) < self.starting_roster['FLEX']:
+                        self.team_rosters[team]['FLEX'].append(player)
                     else:
                         self.team_rosters[team][position].append(player)
-                    
-                    # Mark this pick as a keeper
-                    self.keepers[row['ID']] = {
-                        'team': team,
-                        'player': player,
-                        'position': position
-                    }
+                else:
+                    self.team_rosters[team][position].append(player)
+                
+                # Mark this pick as a keeper
+                self.keepers[row['ID']] = {
+                    'team': team,
+                    'player': player,
+                    'position': position
+                }
+                
+                # Remove keeper from available players if they exist there
+                self.available_players = self.available_players[
+                    self.available_players['Name Formula'] != player
+                ]
     
     def _get_team_needs(self, team: str) -> Dict[str, int]:
         """Calculate what positions a team still needs to fill."""
@@ -178,7 +172,9 @@ class FantasyDraftSimulator:
     
     def _calculate_randomness_factor(self, pick_number: int) -> int:
         """Calculate how much randomness to add based on pick number."""
-        if pick_number <= PICK_THRESHOLDS['early']:
+        if pick_number <= PICK_THRESHOLDS['very_early']:
+            return RANDOMNESS_FACTORS['very_early_picks']
+        elif pick_number <= PICK_THRESHOLDS['early']:
             return RANDOMNESS_FACTORS['early_picks']
         elif pick_number <= PICK_THRESHOLDS['mid']:
             return RANDOMNESS_FACTORS['mid_picks']

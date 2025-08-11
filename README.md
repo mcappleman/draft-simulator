@@ -92,7 +92,7 @@ The multiple simulation script will:
 ## Customization
 
 You can modify the simulator by:
-- Changing the randomness factors in `_calculate_randomness_factor()`
+- Changing the randomness factors and pick thresholds in `config.py`
 - Adjusting the position priority logic in `_get_priority_positions()`
 - Modifying roster requirements in the `starting_roster` dictionary
 
@@ -108,9 +108,10 @@ Pick  4 (1.04): Ross      - CeeDee Lamb                (WR) - KEEPER
 
 ## Randomness Algorithm
 
-- **Picks 1-10**: Top 5 players available
-- **Picks 11-50**: Top 15 players available  
-- **Picks 51-100**: Top 30 players available
-- **Picks 100+**: Top 50 players available
+- **Picks 1-5**: Top 3 players available (very predictable)
+- **Picks 6-15**: Top 5 players available (early picks)
+- **Picks 16-60**: Top 15 players available (mid picks)
+- **Picks 61-100**: Top 30 players available (late picks)
+- **Picks 100+**: Top 50 players available (very late picks)
 
 Selection is weighted towards higher-ranked players within each pool.

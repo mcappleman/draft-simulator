@@ -1,0 +1,182 @@
+,COPY,,,,,,COPY,,,COPY,
+ID,Overall,Round,Pick,Team,Player,Notes,Draft Friendly Player,Position,Position Rank,Combined Position Rank,Picks Before
+Basil1,1,1,1,Basil,,,"""""",,1,"""1""",0
+Chaz1,2,1,2,Chaz,,,"""""",,2,"""2""",1
+Hunter1,3,1,3,Hunter,,,"""""",,3,"""3""",2
+Ross1,4,1,4,Ross,CeeDee Lamb,3rd Year Keeper,"""CeeDee Lamb (3rd Year Keeper)""",WR,1,"""WR1""",2
+Willis1,5,1,5,Willis,,,"""""",,4,"""4""",3
+Willis2,6,1,6,Willis,,,"""""",,5,"""5""",4
+Jared1,7,1,7,Jared,Saquon Barkley,3rd Year Keeper,"""Saquon Barkley (3rd Year Keeper)""",RB,1,"""RB1""",4
+Ean1,8,1,8,Ean,Jahmyr Gibbs,2nd Year Keeper,"""Jahmyr Gibbs (2nd Year Keeper)""",RB,2,"""RB2""",4
+Majors1,9,1,9,Majors,,,"""""",,6,"""6""",5
+Matt1,10,1,10,Matt,Bijan Robinson,2nd Year Keeper,"""Bijan Robinson (2nd Year Keeper)""",RB,3,"""RB3""",5
+Sawyer1,11,1,11,Sawyer,,,"""""",,7,"""7""",6
+Sam1,12,1,12,Sam,Justin Jefferson,1st Year Keeper,"""Justin Jefferson (1st Year Keeper)""",WR,2,"""WR2""",6
+Sam2,13,2,1,Sam,,,"""""",,8,"""8""",7
+Sawyer2,14,2,2,Sawyer,,,"""""",,9,"""9""",8
+Matt2,15,2,3,Matt,Derrick Henry,"1st Round, 2nd Year Keeper","""Derrick Henry (1st Round, 2nd Year Keeper)""",RB,4,"""RB4""",8
+Majors2,16,2,4,Majors,,,"""""",,10,"""10""",9
+Ean2,17,2,5,Ean,,,"""""",,11,"""11""",10
+Jared2,18,2,6,Jared,Tyreek Hill,3rd Year Keeper,"""Tyreek Hill (3rd Year Keeper)""",WR,3,"""WR3""",10
+Willis3,19,2,7,Willis,,,"""""",,12,"""12""",11
+Trevor1,20,2,8,Trevor,Lamar Jackson,1st Year Keeper,"""Lamar Jackson (1st Year Keeper)""",QB,1,"""QB1""",11
+Ross2,21,2,9,Ross,Malik Nabers,1st Year Keeper,"""Malik Nabers (1st Year Keeper)""",WR,4,"""WR4""",11
+Hunter2,22,2,10,Hunter,,,"""""",,13,"""13""",12
+Chaz2,23,2,11,Chaz,,,"""""",,14,"""14""",13
+Basil2,24,2,12,Basil,,,"""""",,15,"""15""",14
+Basil3,25,3,1,Basil,,,"""""",,16,"""16""",15
+Chaz3,26,3,2,Chaz,,,"""""",,17,"""17""",16
+Hunter3,27,3,3,Hunter,Trey McBride,1st Year Keeper,"""Trey McBride (1st Year Keeper)""",TE,1,"""TE1""",16
+Ross3,28,3,4,Ross,,,"""""",,18,"""18""",17
+Basil4,29,3,5,Basil,,,"""""",,19,"""19""",18
+Willis4,30,3,6,Willis,,,"""""",,20,"""20""",19
+Jared3,31,3,7,Jared,,,"""""",,21,"""21""",20
+Ean3,32,3,8,Ean,,,"""""",,22,"""22""",21
+Majors3,33,3,9,Majors,,,"""""",,23,"""23""",22
+Matt3,34,3,10,Matt,,,"""""",,24,"""24""",23
+Sawyer3,35,3,11,Sawyer,Breece Hall,2nd Year Keeper,"""Breece Hall (2nd Year Keeper)""",RB,5,"""RB5""",23
+Sam3,36,3,12,Sam,,,"""""",,25,"""25""",24
+Sam4,37,4,1,Sam,,,"""""",,26,"""26""",25
+Sawyer4,38,4,2,Sawyer,,,"""""",,27,"""27""",26
+Matt4,39,4,3,Matt,,,"""""",,28,"""28""",27
+Majors4,40,4,4,Majors,,,"""""",,29,"""29""",28
+Ean4,41,4,5,Ean,,,"""""",,30,"""30""",29
+Jared4,42,4,6,Jared,George Kittle,1st Year Keeper,"""George Kittle (1st Year Keeper)""",TE,2,"""TE2""",29
+Willis5,43,4,7,Willis,,,"""""",,31,"""31""",30
+Trevor2,44,4,8,Trevor,,,"""""",,32,"""32""",31
+Ross4,45,4,9,Ross,,,"""""",,33,"""33""",32
+Hunter4,46,4,10,Hunter,,,"""""",,34,"""34""",33
+Chaz4,47,4,11,Chaz,,,"""""",,35,"""35""",34
+Basil5,48,4,12,Basil,,,"""""",,36,"""36""",35
+Basil6,49,5,1,Basil,,,"""""",,37,"""37""",36
+Chaz5,50,5,2,Chaz,,,"""""",,38,"""38""",37
+Hunter5,51,5,3,Hunter,,,"""""",,39,"""39""",38
+Ross5,52,5,4,Ross,,,"""""",,40,"""40""",39
+Basil7,53,5,5,Basil,,,"""""",,41,"""41""",40
+Trevor3,54,5,6,Trevor,,,"""""",,42,"""42""",41
+Jared5,55,5,7,Jared,,,"""""",,43,"""43""",42
+Ean5,56,5,8,Ean,,,"""""",,44,"""44""",43
+Majors5,57,5,9,Majors,Jalen Hurts,3rd Year Keeper,"""Jalen Hurts (3rd Year Keeper)""",QB,2,"""QB2""",43
+Matt5,58,5,10,Matt,,,"""""",,45,"""45""",44
+Sawyer5,59,5,11,Sawyer,,,"""""",,46,"""46""",45
+Sam5,60,5,12,Sam,,,"""""",,47,"""47""",46
+Sam6,61,6,1,Sam,,,"""""",,48,"""48""",47
+Willis6,62,6,2,Willis,,,"""""",,49,"""49""",48
+Matt6,63,6,3,Matt,,,"""""",,50,"""50""",49
+Trevor4,64,6,4,Trevor,,,"""""",,51,"""51""",50
+Ean6,65,6,5,Ean,,,"""""",,52,"""52""",51
+Jared6,66,6,6,Jared,,,"""""",,53,"""53""",52
+Trevor5,67,6,7,Trevor,,,"""""",,54,"""54""",53
+Trevor6,68,6,8,Trevor,,,"""""",,55,"""55""",54
+Ross6,69,6,9,Ross,,,"""""",,56,"""56""",55
+Hunter6,70,6,10,Hunter,,,"""""",,57,"""57""",56
+Chaz6,71,6,11,Chaz,Brock Bowers,1st Year Keeper,"""Brock Bowers (1st Year Keeper)""",TE,3,"""TE3""",56
+Basil8,72,6,12,Basil,,,"""""",,58,"""58""",57
+Basil9,73,7,1,Basil,,,"""""",,59,"""59""",58
+Chaz7,74,7,2,Chaz,,,"""""",,60,"""60""",59
+Hunter7,75,7,3,Hunter,,,"""""",,61,"""61""",60
+Ross7,76,7,4,Ross,,,"""""",,62,"""62""",61
+Majors6,77,7,5,Majors,,,"""""",,63,"""63""",62
+Willis7,78,7,6,Willis,,,"""""",,64,"""64""",63
+Jared7,79,7,7,Jared,,,"""""",,65,"""65""",64
+Ean7,80,7,8,Ean,Ladd McConkey,1st Year Keeper,"""Ladd McConkey (1st Year Keeper)""",WR,5,"""WR5""",64
+Majors7,81,7,9,Majors,,,"""""",,66,"""66""",65
+Matt7,82,7,10,Matt,,,"""""",,67,"""67""",66
+Sawyer6,83,7,11,Sawyer,,,"""""",,68,"""68""",67
+Sam7,84,7,12,Sam,,,"""""",,69,"""69""",68
+Sam8,85,8,1,Sam,,,"""""",,70,"""70""",69
+Sawyer7,86,8,2,Sawyer,,,"""""",,71,"""71""",70
+Matt8,87,8,3,Matt,,,"""""",,72,"""72""",71
+Majors8,88,8,4,Majors,,,"""""",,73,"""73""",72
+Ean8,89,8,5,Ean,,,"""""",,74,"""74""",73
+Jared8,90,8,6,Jared,,,"""""",,75,"""75""",74
+Willis8,91,8,7,Willis,,,"""""",,76,"""76""",75
+Majors9,92,8,8,Majors,Rashee Rice,"FA, 1st Year Keeper","""Rashee Rice (FA, 1st Year Keeper)""",WR,6,"""WR6""",75
+Ross8,93,8,9,Ross,,,"""""",,77,"""77""",76
+Hunter8,94,8,10,Hunter,Jayden Daniels,1st Year Keeper,"""Jayden Daniels (1st Year Keeper)""",QB,3,"""QB3""",76
+Chaz8,95,8,11,Chaz,,,"""""",,78,"""78""",77
+Basil10,96,8,12,Basil,Chase Brown,1st Year Keeper,"""Chase Brown (1st Year Keeper)""",RB,6,"""RB6""",77
+Basil11,97,9,1,Basil,Tyrone Tracy Jr.,"FA, 1st Year Keeper","""Tyrone Tracy Jr. (FA, 1st Year Keeper)""",RB,7,"""RB7""",77
+Chaz9,98,9,2,Chaz,,,"""""",,79,"""79""",78
+Hunter9,99,9,3,Hunter,,,"""""",,80,"""80""",79
+Ross9,100,9,4,Ross,,,"""""",,81,"""81""",80
+Willis9,101,9,5,Willis,,,"""""",,82,"""82""",81
+Willis10,102,9,6,Willis,Sam LaPorta,"FA, 2nd Year Keeper","""Sam LaPorta (FA, 2nd Year Keeper)""",TE,4,"""TE4""",81
+Jared9,103,9,7,Jared,,,"""""",,83,"""83""",82
+Ean9,104,9,8,Ean,,,"""""",,84,"""84""",83
+Trevor7,105,9,9,Trevor,Chuba Hubbard,1st Year Keeper,"""Chuba Hubbard (1st Year Keeper)""",RB,8,"""RB8""",83
+Matt9,106,9,10,Matt,,,"""""",,85,"""85""",84
+Sawyer8,107,9,11,Sawyer,Baker Mayfield,"FA, 1st Year Keeper","""Baker Mayfield (FA, 1st Year Keeper)""",QB,4,"""QB4""",84
+Sam9,108,9,12,Sam,Brian Thomas Jr.,"FA, 1st Year Keeper","""Brian Thomas Jr. (FA, 1st Year Keeper)""",WR,7,"""WR7""",84
+Sam10,109,10,1,Sam,Puka Nacua,2nd Year Keeper,"""Puka Nacua (2nd Year Keeper)""",WR,8,"""WR8""",84
+Sawyer9,110,10,2,Sawyer,Kyren Williams,2nd Year Keeper,"""Kyren Williams (2nd Year Keeper)""",RB,9,"""RB9""",84
+Matt10,111,10,3,Matt,Garrett Wilson,3rd Year Keeper,"""Garrett Wilson (3rd Year Keeper)""",WR,9,"""WR9""",84
+Majors10,112,10,4,Majors,Chris Godwin,"FA, 1st Year Keeper","""Chris Godwin (FA, 1st Year Keeper)""",WR,10,"""WR10""",84
+Ean10,113,10,5,Ean,Christian McCaffrey,"FA, 1st Year Keeper","""Christian McCaffrey (FA, 1st Year Keeper)""",RB,10,"""RB10""",84
+Jared10,114,10,6,Jared,,,"""""",,86,"""86""",85
+Willis11,115,10,7,Willis,Jaylen Warren,"FA, 1st Year Keeper","""Jaylen Warren (FA, 1st Year Keeper)""",RB,11,"""RB11""",85
+Trevor8,116,10,8,Trevor,Bucky Irving,"FA, 1st Year Keeper","""Bucky Irving (FA, 1st Year Keeper)""",RB,12,"""RB12""",85
+Ross10,117,10,9,Ross,,,"""""",,87,"""87""",86
+Hunter10,118,10,10,Hunter,Marvin Harrison Jr.,"FA, 1st Year Keeper","""Marvin Harrison Jr. (FA, 1st Year Keeper)""",WR,11,"""WR11""",86
+Chaz10,119,10,11,Chaz,De'Von Achane,2nd Year Keeper,"""De'Von Achane (2nd Year Keeper)""",RB,13,"""RB13""",86
+Basil12,120,10,12,Basil,Nico Collins,"FA, 2nd Year Keeper","""Nico Collins (FA, 2nd Year Keeper)""",WR,12,"""WR12""",86
+Trevor9,121,11,1,Trevor,,,"""""",,88,"""88""",87
+Chaz11,122,11,2,Chaz,,,"""""",,89,"""89""",88
+Hunter11,123,11,3,Hunter,,,"""""",,90,"""90""",89
+Ross11,124,11,4,Ross,,,"""""",,91,"""91""",90
+Trevor10,125,11,5,Trevor,,,"""""",,92,"""92""",91
+Willis12,126,11,6,Willis,,,"""""",,93,"""93""",92
+Jared11,127,11,7,Jared,,,"""""",,94,"""94""",93
+Ean11,128,11,8,Ean,,,"""""",,95,"""95""",94
+Majors11,129,11,9,Majors,,,"""""",,96,"""96""",95
+Matt11,130,11,10,Matt,,,"""""",,97,"""97""",96
+Sawyer10,131,11,11,Sawyer,,,"""""",,98,"""98""",97
+Sam11,132,11,12,Sam,,,"""""",,99,"""99""",98
+Sam12,133,12,1,Sam,,,"""""",,100,"""100""",99
+Sawyer11,134,12,2,Sawyer,,,"""""",,101,"""101""",100
+Matt12,135,12,3,Matt,,,"""""",,102,"""102""",101
+Majors12,136,12,4,Majors,,,"""""",,103,"""103""",102
+Ean12,137,12,5,Ean,,,"""""",,104,"""104""",103
+Jared12,138,12,6,Jared,,,"""""",,105,"""105""",104
+Willis13,139,12,7,Willis,,,"""""",,106,"""106""",105
+Trevor11,140,12,8,Trevor,,,"""""",,107,"""107""",106
+Ross12,141,12,9,Ross,,,"""""",,108,"""108""",107
+Hunter12,142,12,10,Hunter,,,"""""",,109,"""109""",108
+Chaz12,143,12,11,Chaz,,,"""""",,110,"""110""",109
+Trevor12,144,12,12,Trevor,,,"""""",,111,"""111""",110
+Basil13,145,13,1,Basil,,,"""""",,112,"""112""",111
+Chaz13,146,13,2,Chaz,,,"""""",,113,"""113""",112
+Hunter13,147,13,3,Hunter,,,"""""",,114,"""114""",113
+Ross13,148,13,4,Ross,,,"""""",,115,"""115""",114
+Trevor13,149,13,5,Trevor,,,"""""",,116,"""116""",115
+Sawyer12,150,13,6,Sawyer,,,"""""",,117,"""117""",116
+Jared13,151,13,7,Jared,,,"""""",,118,"""118""",117
+Ean13,152,13,8,Ean,,,"""""",,119,"""119""",118
+Majors13,153,13,9,Majors,,,"""""",,120,"""120""",119
+Matt13,154,13,10,Matt,,,"""""",,121,"""121""",120
+Sawyer13,155,13,11,Sawyer,,,"""""",,122,"""122""",121
+Sam13,156,13,12,Sam,,,"""""",,123,"""123""",122
+Sam14,157,14,1,Sam,,,"""""",,124,"""124""",123
+Sawyer14,158,14,2,Sawyer,,,"""""",,125,"""125""",124
+Matt14,159,14,3,Matt,,,"""""",,126,"""126""",125
+Majors14,160,14,4,Majors,,,"""""",,127,"""127""",126
+Ean14,161,14,5,Ean,,,"""""",,128,"""128""",127
+Jared14,162,14,6,Jared,,,"""""",,129,"""129""",128
+Willis14,163,14,7,Willis,,,"""""",,130,"""130""",129
+Trevor14,164,14,8,Trevor,,,"""""",,131,"""131""",130
+Ross14,165,14,9,Ross,,,"""""",,132,"""132""",131
+Hunter14,166,14,10,Hunter,,,"""""",,133,"""133""",132
+Chaz14,167,14,11,Chaz,,,"""""",,134,"""134""",133
+Basil14,168,14,12,Basil,,,"""""",,135,"""135""",134
+Basil15,169,15,1,Basil,,,"""""",,136,"""136""",135
+Chaz15,170,15,2,Chaz,,,"""""",,137,"""137""",136
+Hunter15,171,15,3,Hunter,,,"""""",,138,"""138""",137
+Ross15,172,15,4,Ross,Jordan Mason,1st Year Keeper,"""Jordan Mason (1st Year Keeper)""",RB,14,"""RB14""",137
+Trevor15,173,15,5,Trevor,,,"""""",,139,"""139""",138
+Willis15,174,15,6,Willis,,,"""""",,140,"""140""",139
+Jared15,175,15,7,Jared,,,"""""",,141,"""141""",140
+Ean15,176,15,8,Ean,,,"""""",,142,"""142""",141
+Majors15,177,15,9,Majors,,,"""""",,143,"""143""",142
+Matt15,178,15,10,Matt,,,"""""",,144,"""144""",143
+Sawyer15,179,15,11,Sawyer,,,"""""",,145,"""145""",144
+Sam15,180,15,12,Sam,,,"""""",,146,"""146""",145

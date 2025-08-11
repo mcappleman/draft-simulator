@@ -27,7 +27,7 @@ env/
 ENV/
 
 # Simulation Outputs
-outputs/
+outputs/*.csv
 *.csv
 simulated_draft_results.csv
 

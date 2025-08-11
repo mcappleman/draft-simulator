@@ -10,8 +10,13 @@ import random
 import os
 from datetime import datetime
 
-def run_multiple_simulations(num_simulations=10):
-    """Run multiple draft simulations and analyze the results."""
+def run_multiple_simulations(num_simulations=10, save_individual_csvs=True):
+    """Run multiple draft simulations and analyze the results.
+    
+    Args:
+        num_simulations (int): Number of simulations to run
+        save_individual_csvs (bool): Whether to save individual simulation CSV files
+    """
     
     # Create outputs directory if it doesn't exist
     os.makedirs('outputs', exist_ok=True)
@@ -43,9 +48,13 @@ def run_multiple_simulations(num_simulations=10):
         # Run simulation
         results = simulator.simulate_draft(seed=seed)
         
-        # Save individual simulation to CSV
-        simulation_filename = f"outputs/simulation_{i+1:03d}_{timestamp}.csv"
-        simulator.export_results(results, simulation_filename)
+        # Save individual simulation to CSV (if enabled)
+        if save_individual_csvs:
+            simulation_filename = f"outputs/simulation_{i+1:03d}_{timestamp}.csv"
+            simulator.export_results(results, simulation_filename)
+            print(f"\nDraft results exported to {simulation_filename}")
+        else:
+            print()
         
         # Count player selections and track draft positions (excluding keepers)
         for result in results:
@@ -126,13 +135,16 @@ def run_multiple_simulations(num_simulations=10):
     # Write analysis to markdown file
     analysis_filename = f"outputs/simulation_analysis_{timestamp}.md"
     write_analysis_to_markdown(analysis_filename, num_simulations, player_selections, position_counts, 
-                              player_draft_positions, team_rosters, timestamp)
+                              player_draft_positions, team_rosters, timestamp, save_individual_csvs)
     
     print(f"\nAnalysis written to: {analysis_filename}")
-    print(f"Individual simulation CSVs saved to: outputs/")
+    if save_individual_csvs:
+        print(f"Individual simulation CSVs saved to: outputs/")
+    else:
+        print("Individual simulation CSVs disabled (analysis only)")
 
 def write_analysis_to_markdown(filename, num_simulations, player_selections, position_counts, 
-                              player_draft_positions, team_rosters, timestamp):
+                              player_draft_positions, team_rosters, timestamp, save_individual_csvs=True):
     """Write the simulation analysis to a markdown file."""
     
     with open(filename, 'w') as f:
@@ -220,10 +232,21 @@ def write_analysis_to_markdown(filename, num_simulations, player_selections, pos
                 f.write(f"| {player} | {count} | {percentage:.1f}% |\n")
             f.write("\n")
         
-        f.write("## Simulation Files\n\n")
-        f.write("Individual simulation results are saved as CSV files:\n\n")
-        for i in range(num_simulations):
-            f.write(f"- `simulation_{i+1:03d}_{timestamp}.csv`\n")
+        if save_individual_csvs:
+            f.write("## Simulation Files\n\n")
+            f.write("Individual simulation results are saved as CSV files:\n\n")
+            for i in range(num_simulations):
+                f.write(f"- `simulation_{i+1:03d}_{timestamp}.csv`\n")
+        else:
+            f.write("## Simulation Files\n\n")
+            f.write("Individual simulation CSV files were disabled for this run.\n")
+            f.write("Only the analysis report was generated.\n")
 
 if __name__ == "__main__":
-    run_multiple_simulations(20)  # Run 20 simulations
+    # Run 20 simulations with individual CSV files (default)
+    run_multiple_simulations(20)
+    
+    # Examples of other configurations:
+    # run_multiple_simulations(100, save_individual_csvs=False)  # 100 sims, analysis only
+    # run_multiple_simulations(50, save_individual_csvs=True)   # 50 sims, with CSVs
+    # run_multiple_simulations(10, save_individual_csvs=False)  # 10 sims, analysis only

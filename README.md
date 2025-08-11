@@ -37,15 +37,20 @@ python draft_simulator.py
 
 ### Multiple Simulations
 ```bash
-# Run 20 simulations and analyze results
+# Run 20 simulations and analyze results (default)
 python run_multiple_simulations.py
+
+# Run 100 simulations without individual CSV files (analysis only)
+python -c "from run_multiple_simulations import run_multiple_simulations; run_multiple_simulations(100, save_individual_csvs=False)"
 ```
 
 This will:
 - Run multiple draft simulations
-- Save each simulation as a separate CSV file in the `outputs/` folder
+- Optionally save each simulation as a separate CSV file in the `outputs/` folder
 - Generate a comprehensive markdown analysis report
 - Show player selection frequency and position breakdowns
+- Include average draft position analysis
+- Include team roster summaries with 20 most common players per team
 
 ## Input File Formats
 
